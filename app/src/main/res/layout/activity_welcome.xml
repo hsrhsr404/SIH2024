@@ -37,7 +37,8 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                android:fontFamily="sans-serif"/>
+                android:fontFamily="sans-serif"
+                android:gravity="center_horizontal" />
 
             <ImageView
                 android:id="@+id/imageViewCharacter"
@@ -47,7 +48,7 @@
                 android:src="@drawable/guy"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textViewTitle">
+                app:layout_constraintTop_toBottomOf="@+id/textViewTitle"/>
 
             <Button
                 android:id="@+id/buttonLogin"

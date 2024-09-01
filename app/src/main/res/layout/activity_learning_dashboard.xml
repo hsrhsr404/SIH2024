@@ -19,7 +19,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:background="@drawable/rounded_image_background"
-        android:padding="1dp"/>
+        android:padding="1dp"
+        android:layout_marginLeft="16dp" />
 
     <!-- Greeting Text -->
     <TextView
@@ -28,12 +29,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:layout_marginStart="8dp"
-        android:text="Hello User!"
+        android:text="@string/hello_user"
         android:textColor="@color/yellow"
         android:textSize="18sp"
-        android:textStyle="light"
+        android:textStyle="normal"
         app:layout_constraintStart_toEndOf="@id/profile_picture"
-        app:layout_constraintTop_toTopOf="@id/profile_picture"/>
+        app:layout_constraintTop_toTopOf="@id/profile_picture"
+        android:layout_marginLeft="8dp" />
 
     <!-- Notification Icon -->
 
@@ -46,7 +48,8 @@
         android:layout_marginEnd="16dp"
         android:src="@drawable/ic_notification"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="16dp" />
 
     <LinearLayout
         android:id="@+id/categories"
@@ -66,45 +69,50 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:padding="8dp"
-            android:text="English"
+            android:text="@string/english"
             android:textColor="@color/white"
-            android:background="@drawable/category_background"/>
+            android:background="@drawable/category_background"
+            android:layout_marginRight="8dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:padding="8dp"
-            android:text="Biology"
+            android:text="@string/biology"
             android:textColor="@color/white"
-            android:background="@drawable/category_background"/>
+            android:background="@drawable/category_background"
+            android:layout_marginRight="8dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:padding="8dp"
-            android:text="Computers"
+            android:text="@string/Computers"
             android:textColor="@color/white"
-            android:background="@drawable/category_background"/>
+            android:background="@drawable/category_background"
+            android:layout_marginRight="8dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:padding="8dp"
-            android:text="History"
+            android:text="@string/history"
             android:textColor="@color/white"
-            android:background="@drawable/category_background"/>
+            android:background="@drawable/category_background"
+            android:layout_marginRight="8dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:padding="8dp"
-            android:text="Physics"
+            android:text="@string/physics"
             android:textColor="@color/white"
-            android:background="@drawable/category_background"/>
+            android:background="@drawable/category_background"
+            android:layout_marginRight="8dp" />
 
 
 
@@ -156,14 +164,15 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="8dp"
-                        android:text="Constitution"
+                        android:text="@string/constitution"
                         android:textColor="@color/yellow"
                         android:textSize="16sp"
                         android:textStyle=""
                         android:layout_alignParentTop="true"
                         android:layout_alignParentStart="true"
                         android:background="@color/black"
-                        android:padding="1dp"/>
+                        android:padding="1dp"
+                        android:layout_alignParentLeft="true" />
 
                     <ImageView
                         android:id="@+id/like_icon_1"
@@ -171,7 +180,8 @@
                         android:layout_height="24dp"
                         android:layout_alignParentEnd="true"
                         android:layout_margin="8dp"
-                        android:src="@drawable/ic_heart"/>
+                        android:src="@drawable/ic_heart"
+                        android:layout_alignParentRight="true" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -203,14 +213,15 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="8dp"
-                        android:text="Computers"
+                        android:text="@string/computers"
                         android:textColor="@color/yellow"
                         android:textSize="16sp"
                         android:textStyle=""
                         android:layout_alignParentTop="true"
                         android:layout_alignParentStart="true"
                         android:background="@color/black"
-                        android:padding="1dp"/>
+                        android:padding="1dp"
+                        android:layout_alignParentLeft="true" />
 
                     <ImageView
                         android:id="@+id/like_icon_2"
@@ -218,7 +229,9 @@
                         android:layout_height="24dp"
                         android:layout_alignParentEnd="true"
                         android:layout_margin="8dp"
-                        android:src="@drawable/ic_heart"/>
+                        android:src="@drawable/ic_heart"
+                        android:layout_alignParentRight="true"
+                        android:contentDescription="@string/todo" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>

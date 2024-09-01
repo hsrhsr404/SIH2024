@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="computers">Computers</string>
+    <string name="physics">Physics</string>
+    <string name="history">History</string>
+    <string name="biology">Biology</string>
+    <string name="english">English</string>
+    <string name="constitution">Constitution</string>
+    <string name="todo">TODO</string>
+    <string name="hello_user">Hello User!</string>
+    <string name="Computers">Computers</string>
 </resources>
